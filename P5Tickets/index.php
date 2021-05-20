@@ -29,80 +29,83 @@
 <body>
 
     <div class="bg">
-        <section class="top-bar">
+        <header>
+            <section class="top-bar">
 
-            <!-- Menu amburguesa -->
-            <span class="menu" data-bs-toggle="offcanvas" href="#offcanvasExample" role="button"
-                aria-controls="offcanvasExample">&#9776; </span>
+                <!-- Menu amburguesa -->
+                <span class="menu" data-bs-toggle="offcanvas" href="#offcanvasExample" role="button"
+                    aria-controls="offcanvasExample">&#9776; </span>
 
-            <div class="offcanvas offcanvas-start" tabindex="-1" id="offcanvasExample"
-                aria-labelledby="offcanvasExampleLabel">
-
-                <div class="offcanvas-header header_menu">
-                    <img class="logo-menu" src="imgs/p5_logo.png">
-
-
-                    <button type="button" class="mob-close fas fa-times" data-bs-dismiss="offcanvas"
-                        aria-label="Close"></button>
-
-
-                </div>
-
-                <div class="offcanvas-body menu-body elementos-menu">
-                    <a href="#"><img class="menu-title" src="imgs/Menu_btn.png"></a>
-
-                    <hr>
-
-                    <a href="#"><img class="menu-item" src="imgs/Eventos_btn.png"></a>
-                    <a href="#"><img class="menu-item" src="imgs/Categoria_btn.png"></a>
-                </div>
-
-            </div>
-
-            <!-- imagen del centro del top bar -->
-            <img class="logo-top-bar" src="imgs/p5_logo.png">
-
-
-            <!-- search button -->
-            <section class="icono-buscar">
-                <a class="fas fa-search lupa" data-bs-toggle="offcanvas" href="#offcanvas" role="button"
-                    aria-controls="offcanvas"></a>
-
-                <div class="offcanvas offcanvas-start" tabindex="-1" id="offcanvas" aria-labelledby="offcanvasLabel">
+                <div class="offcanvas offcanvas-start" tabindex="-1" id="offcanvasExample"
+                    aria-labelledby="offcanvasExampleLabel">
 
                     <div class="offcanvas-header header_menu">
                         <img class="logo-menu" src="imgs/p5_logo.png">
+
+
                         <button type="button" class="mob-close fas fa-times" data-bs-dismiss="offcanvas"
                             aria-label="Close"></button>
+
+
                     </div>
 
-                    <div class="offcanvas-body menu-body">
-                        <div class="barra-buscar">
-                            <nav class="navbar navbar-light">
-                                <div class="container-fluid">
-                                    <form class="d-flex">
-                                        <input class="form-control me-2" type="search" placeholder="Buscar"
-                                            aria-label="Search">
-                                        <button class="btn btn-success boton-buscar" type="submit">Buscar</button>
-                                    </form>
-                                </div>
-                            </nav>
+                    <div class="offcanvas-body menu-body elementos-menu">
+                        <a href="#"><img class="menu-title" src="imgs/Menu_btn.png"></a>
+
+                        <hr>
+
+                        <a href="#"><img class="menu-item" src="imgs/Eventos_btn.png"></a>
+                        <a href="#"><img class="menu-item" src="imgs/Categoria_btn.png"></a>
+                    </div>
+
+                </div>
+
+                <!-- imagen del centro del top bar -->
+                <img class="logo-top-bar" src="imgs/p5_logo.png">
+
+
+                <!-- search button -->
+                <section class="icono-buscar">
+                    <a class="fas fa-search lupa" data-bs-toggle="offcanvas" href="#offcanvas" role="button"
+                        aria-controls="offcanvas"></a>
+
+                    <div class="offcanvas offcanvas-start" tabindex="-1" id="offcanvas"
+                        aria-labelledby="offcanvasLabel">
+
+                        <div class="offcanvas-header header_menu">
+                            <img class="logo-menu" src="imgs/p5_logo.png">
+                            <button type="button" class="mob-close fas fa-times" data-bs-dismiss="offcanvas"
+                                aria-label="Close"></button>
+                        </div>
+
+                        <div class="offcanvas-body menu-body">
+                            <div class="barra-buscar">
+                                <nav class="navbar navbar-light">
+                                    <div class="container-fluid">
+                                        <form class="d-flex">
+                                            <input class="form-control me-2" type="search" placeholder="Buscar"
+                                                aria-label="Search">
+                                            <button class="btn btn-success boton-buscar" type="submit">Buscar</button>
+                                        </form>
+                                    </div>
+                                </nav>
+                            </div>
                         </div>
                     </div>
-                </div>
+                </section>
+
             </section>
-
-        </section>
-        <!-- Menu amburguesa -->
-
-
-        <!-- Barra superior -->
-        <header>
-
+            <!-- Menu amburguesa -->
         </header>
 
+        <!-- seccion de bienvenida -->
+        <section class="welcome-section">
+            <img class="img-fluid" src="imgs/texto-bienvenida.png" alt="consigue tu Ticket para el evento">
+        </section>
 
+        <section class="articulos">
 
+        </section>
 
 
         <footer>
