@@ -1,0 +1,81 @@
+//VARIABLES
+$white: #ffffff;
+$white1: #E6E6E6;
+$white2: #CCCCCC;
+$black: #000000;
+$gray: #b5b5b6;
+$light-purple: #9a93ad;
+$red-light: #d71618;
+$red-dark: #cd0f03;
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.bg {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: url(../imgs/bg.png) repeat center center;
+}
+
+
+//menu amburguesa inicio
+.menu {
+  font-size: 40px;
+  color: $white;
+  margin: 0.5em;
+}
+
+.header_menu {
+  background-color: $black;
+}
+
+.menu-body {
+  background: url(../imgs/rayo.png);
+  background-color: $red-light;
+}
+
+.logo-menu {
+  width: 20%;
+  margin: 0 0 0 40%;
+}
+
+.imagenlogo{
+  text-align: center;
+}
+
+.boton-cerrar{
+background-color: $white;
+}
+
+hr{
+  color: $white;
+  width: 5em;
+  margin: auto;
+  border: 1.5px solid;
+}
+
+.elementos-menu{
+  text-align: center;
+
+}
+
+.menu-title{
+width: 40%;
+margin: 0 0 1em 0;
+}
+
+.menu-item{
+  margin: 0.5em ;
+}
+
+//menu amburguesa Fin
+
+
+
+@media screen and (max-height: 450px) {}
