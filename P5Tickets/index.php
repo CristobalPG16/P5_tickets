@@ -105,7 +105,56 @@
 
         <section class="articulos">
 
-            
+            <div class="container-fluid">
+                <div class="row">
+
+                  <div class="col-sm-3">
+                    Column
+                  </div>
+                  <div class="col-sm-3">
+                    Column
+                  </div>
+                  <div class="col-sm-3">
+                    Column
+                  </div>
+                  <div class="col-sm-3">
+                    Column
+                  </div>
+                  <div class="col-sm-3">
+                    Column
+                  </div>
+                  <div class="col-sm-3">
+                    Column
+                  </div>
+
+                </div>
+              </div>
+
+              <div class="container-fluid">
+                <div class="row">
+
+                  <div class="col-sm-3">
+                    Column
+                  </div>
+                  <div class="col-sm-3">
+                    Column
+                  </div>
+                  <div class="col-sm-3">
+                    Column
+                  </div>
+                  <div class="col-sm-3">
+                    Column
+                  </div>
+                  <div class="col-sm-3">
+                    Column
+                  </div>
+                  <div class="col-sm-3">
+                    Column
+                  </div>
+
+                </div>
+              </div>
+
 
         </section>
 
