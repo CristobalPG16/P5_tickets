@@ -16,6 +16,10 @@
     <link
         href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;900&family=Roboto:wght@300;400;900&display=swap"
         rel="stylesheet">
+
+    <!-- ICONOS-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css">
+
     <!-- Main stylesheet -->
     <link rel="stylesheet" href="./css/style.css" rel="stylesheet">
 </head>
@@ -36,8 +40,12 @@
 
                 <div class="offcanvas-header header_menu">
                     <img class="logo-menu" src="imgs/p5_logo.png">
-                    <button type="button" class="btn-close text-reset boton-cerrar" data-bs-dismiss="offcanvas"
+
+
+                    <button type="button" class="mob-close fas fa-times" data-bs-dismiss="offcanvas"
                         aria-label="Close"></button>
+
+
                 </div>
 
                 <div class="offcanvas-body menu-body elementos-menu">
@@ -57,14 +65,14 @@
 
             <!-- search button -->
             <section class="icono-buscar">
-                <img class="menu" data-bs-toggle="offcanvas" href="#offcanvas" role="button" aria-controls="offcanvas"
-                    src="imgs/Buscar-btn.png">
+                <a class="fas fa-search lupa" data-bs-toggle="offcanvas" href="#offcanvas" role="button"
+                    aria-controls="offcanvas"></a>
 
                 <div class="offcanvas offcanvas-start" tabindex="-1" id="offcanvas" aria-labelledby="offcanvasLabel">
 
                     <div class="offcanvas-header header_menu">
                         <img class="logo-menu" src="imgs/p5_logo.png">
-                        <button type="button" class="btn-close text-reset boton-cerrar" data-bs-dismiss="offcanvas"
+                        <button type="button" class="mob-close fas fa-times" data-bs-dismiss="offcanvas"
                             aria-label="Close"></button>
                     </div>
 
