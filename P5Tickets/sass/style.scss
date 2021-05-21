@@ -137,32 +137,80 @@ body {
 
   // Articulos
 
-//.karaoke{
-//  background: url(../imgs/boxs/karaoke-box.png);
-//  background-size:cover ;
-//}
+  //.karaoke{
+  //  background: url(../imgs/boxs/karaoke-box.png);
+  //  background-size:cover ;
+  //}
 
-.informacion{
-color: $white1;
-font-size: 16px;
+  .informacion {
+    color: $white1;
+    font-size: 16px;
+  }
+
+  .karaoke-box {
+    padding-top: 20%;
+    padding-bottom: 15%;
+    background: url(../imgs/boxs/karaoke-box.png)no-repeat center;
+    background-size: cover;
+  }
+
+  .cosplay-box {
+    padding-top: 20%;
+    padding-bottom: 15%;
+    background: url(../imgs/boxs/cosplay-box.png)no-repeat center;
+    background-size: cover;
+  }
+
+  .torneo-box {
+    padding-top: 20%;
+    padding-bottom: 15%;
+    background: url(../imgs/boxs/torneo-box.png)no-repeat center;
+    background-size: cover;
+  }
+
+  .entrevista-box {
+    padding-top: 20%;
+    padding-bottom: 15%;
+    background: url(../imgs/boxs/entrevista-box.png)no-repeat center;
+    background-size: cover;
+  }
+
+  .entrevista-box {
+    padding-top: 20%;
+    padding-bottom: 15%;
+    background: url(../imgs/boxs/firmas-box.png)no-repeat center;
+    background-size: cover;
+  }
+
+  .exclusiva-box {
+    padding-top: 20%;
+    padding-bottom: 15%;
+    background: url(../imgs/boxs/anuncio-box.png)no-repeat center;
+    background-size: cover;
+  }
+
+  .boton-row {
+    margin-top: 2%;
+  }
+
+
+  .copyrigth-text {
+    margin-top: 10%;
+    padding: 5%;
+    background-color: black;
+    color: white;
+    font-size: 10px;
+  }
+
+.panel-buscar{
+  animation: moveToLeft 5s linear infinite;
 }
 
-.karaoke-box{
-  padding-top: 20%;
-  padding-bottom: 15%;
-  background: url(../imgs/boxs/karaoke-box.png)no-repeat center;
-  background-size:cover;
+
+
+
+
+
 }
 
-.boton-row{
-  margin-top: 2%;
-}
-
-
-
-
-
-
-
-
-}//fin media de celular
+//fin media de celular
