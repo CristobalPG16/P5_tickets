@@ -65,10 +65,11 @@
 
             <!-- search button -->
             <section class="icono-buscar">
-                <a class="fas fa-search lupa" data-bs-toggle="offcanvas" href="#offcanvas" role="button"
-                    aria-controls="offcanvas"></a>
 
-                <div class="offcanvas offcanvas-start" tabindex="-1" id="offcanvas" aria-labelledby="offcanvasLabel">
+                <a class="fas fa-search lupa" data-bs-toggle="offcanvas" href="#offcanvas"
+                    data-bs-target="#offcanvasRight" aria-controls="offcanvasRight"></a>
+
+                <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasRight" aria-labelledby="offcanvasRightLabel">
 
                     <div class="offcanvas-header header_menu">
                         <img class="logo-menu" src="imgs/p5_logo.png">
@@ -90,6 +91,7 @@
                         </div>
                     </div>
                 </div>
+
             </section>
 
         </section>
@@ -106,7 +108,7 @@
         <div class="container">
             <div class="row">
 
-                <div class="col-sm-3 karaoke-box">
+                <div class="col-sm-4 karaoke-box">
                     <div class="row">
                         <div class="col informacion">
                             #Categoria <br>
@@ -128,7 +130,7 @@
                     </div>
                 </div>
 
-                <div class="col-sm-3 karaoke-box">
+                <div class="col-sm-4 cosplay-box">
                     <div class="row">
                         <div class="col informacion">
                             #Categoria <br>
@@ -139,7 +141,7 @@
                             Para: +18<br>
                         </div>
                         <div class="col">
-                            <img class="img-fluid" src="imgs/box_imgs/karaoke_img.png" alt="Karaoke">
+                            <img class="img-fluid" src="imgs/box_imgs/cosplay_img.png" alt="Karaoke">
                         </div>
                     </div>
                     <div class="row boton-row">
@@ -150,7 +152,7 @@
                     </div>
                 </div>
 
-                <div class="col-sm-3 karaoke-box">
+                <div class="col-sm-4 torneo-box">
                     <div class="row">
                         <div class="col informacion">
                             #Categoria <br>
@@ -161,7 +163,7 @@
                             Para: +18<br>
                         </div>
                         <div class="col">
-                            <img class="img-fluid" src="imgs/box_imgs/karaoke_img.png" alt="Karaoke">
+                            <img class="img-fluid" src="imgs/box_imgs/torneo_img.png" alt="Karaoke">
                         </div>
                     </div>
                     <div class="row boton-row">
@@ -172,7 +174,7 @@
                     </div>
                 </div>
 
-                <div class="col-sm-3 karaoke-box">
+                <div class="col-sm-4 entrevista-box">
                     <div class="row">
                         <div class="col informacion">
                             #Categoria <br>
@@ -183,7 +185,7 @@
                             Para: +18<br>
                         </div>
                         <div class="col">
-                            <img class="img-fluid" src="imgs/box_imgs/karaoke_img.png" alt="Karaoke">
+                            <img class="img-fluid" src="imgs/box_imgs/entrevista_img.png" alt="Karaoke">
                         </div>
                     </div>
                     <div class="row boton-row">
@@ -194,7 +196,7 @@
                     </div>
                 </div>
 
-                <div class="col-sm-3 karaoke-box">
+                <div class="col-sm-4 karaoke-box">
                     <div class="row">
                         <div class="col informacion">
                             #Categoria <br>
@@ -205,7 +207,7 @@
                             Para: +18<br>
                         </div>
                         <div class="col">
-                            <img class="img-fluid" src="imgs/box_imgs/karaoke_img.png" alt="Karaoke">
+                            <img class="img-fluid" src="imgs/box_imgs/firmas-img.png" alt="Karaoke">
                         </div>
                     </div>
                     <div class="row boton-row">
@@ -216,7 +218,7 @@
                     </div>
                 </div>
 
-                <div class="col-sm-3 karaoke-box">
+                <div class="col-sm-4 exclusiva-box">
                     <div class="row">
                         <div class="col informacion">
                             #Categoria <br>
@@ -227,7 +229,7 @@
                             Para: +18<br>
                         </div>
                         <div class="col">
-                            <img class="img-fluid" src="imgs/box_imgs/karaoke_img.png" alt="Karaoke">
+                            <img class="img-fluid" src="imgs/box_imgs/exclusivo_img.png" alt="Karaoke">
                         </div>
                     </div>
                     <div class="row boton-row">
@@ -245,6 +247,11 @@
 
 
     <footer>
+
+        <section class="copyrigth-text">
+            <p>Copyright © 2021 P5. All rights reserved. The order process, tax issue and invoicing to end user is
+                conducted by Wondershare Technology Co., Ltd, which is the subsidiary of Wondershare group.</p>
+        </section>
 
     </footer>
 
