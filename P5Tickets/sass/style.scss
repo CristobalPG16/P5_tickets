@@ -16,201 +16,288 @@ body {
 }
 
 
+//@media screen and (max-width: 820px) {
+
+//menu amburguesa inicio
 .menu {
-  display: none;
+  font-size: 40px;
+  color: $white;
+  display: inline-block;
+  margin: 0 0 0 2%;
 }
 
-@media screen and (max-width: 820px) {
+.header_menu {
+  background-color: $black;
+}
 
-  //menu amburguesa inicio
+.menu-body {
+  background: url(../imgs/rayo.png);
+  background-color: $red-light;
+}
+
+.logo-menu {
+  width: 20%;
+  margin: 0 0 0 40%;
+}
+
+.imagenlogo {
+  text-align: center;
+}
+
+.boton-cerrar {
+  background-color: $white;
+}
+
+hr {
+  color: $white;
+  width: 5em;
+  margin: auto;
+  border: 1.5px solid;
+}
+
+.elementos-menu {
+  text-align: center;
+
+}
+
+.menu-title {
+  width: 40%;
+  margin: 0 0 1em 0;
+}
+
+.menu-item {
+  margin: 0.5em;
+}
+
+//menu amburguesa Fin
+
+
+// top bar inicio
+.top-bar {
+  background-color: $black;
+}
+
+.logo-top-bar {
+  padding: 0.5em;
+  margin: -4% 0 0 28%;
+  width: 20%;
+}
+
+.boton-buscar {
+  color: $white;
+  background-color: $black;
+  border: none;
+}
+
+// top bar fin
+
+
+// top bar buscar inicio
+
+.lupa {
+  text-decoration: none;
+  font-size: 2em;
+  color: $white;
+  display: inline-block;
+}
+
+
+.boton-buscar {
+  color: $white;
+  background-color: $black;
+  border: none;
+}
+
+.barra-buscar {
+  margin: 0 10%;
+}
+
+.icono-buscar {
+  left: 88%;
+  top: 1em;
+  position: absolute;
+}
+
+.mob-close {
+  color: #ffff;
+  font-size: 2em;
+  background: none;
+  box-sizing: content-box;
+  width: 1em;
+  height: 1em;
+  padding: .25em .25em;
+  border: none;
+}
+
+// top bar buscar fin
+
+
+// Articulos
+
+.informacion {
+  color: $white1;
+  font-size: 16px;
+}
+
+.karaoke-box {
+  padding-top: 20%;
+  padding-bottom: 15%;
+  background: url(../imgs/boxs/karaoke-box.png)no-repeat center;
+  background-size: cover;
+}
+
+.cosplay-box {
+  padding-top: 20%;
+  padding-bottom: 15%;
+  background: url(../imgs/boxs/cosplay-box.png)no-repeat center;
+  background-size: cover;
+}
+
+.torneo-box {
+  padding-top: 20%;
+  padding-bottom: 15%;
+  background: url(../imgs/boxs/torneo-box.png)no-repeat center;
+  background-size: cover;
+}
+
+.entrevista-box {
+  padding-top: 20%;
+  padding-bottom: 15%;
+  background: url(../imgs/boxs/entrevista-box.png)no-repeat center;
+  background-size: cover;
+}
+
+.entrevista-box {
+  padding-top: 20%;
+  padding-bottom: 15%;
+  background: url(../imgs/boxs/firmas-box.png)no-repeat center;
+  background-size: cover;
+}
+
+.exclusiva-box {
+  padding-top: 20%;
+  padding-bottom: 15%;
+  background: url(../imgs/boxs/anuncio-box.png)no-repeat center;
+  background-size: cover;
+}
+
+.boton-row {
+  margin-top: 2%;
+}
+
+
+//footer
+
+
+.copyrigth-text {
+  margin-top: 10%;
+  padding: 5%;
+  background-color: black;
+  color: white;
+  font-size: 10px;
+}
+
+//} //fin media de celular
+
+
+
+
+
+@media (min-width: 1025px) and (max-width: 1920px) {
+
+
+  //header compu
   .menu {
-    font-size: 40px;
-    color: $white;
-    display: inline-block;
-    margin: 0 0 0 2%;
+    display: none;
   }
 
-  .header_menu {
-    background-color: $black;
-  }
-
-  .menu-body {
-    background: url(../imgs/rayo.png);
-    background-color: $red-light;
-  }
-
-  .logo-menu {
-    width: 20%;
-    margin: 0 0 0 40%;
-  }
-
-  .imagenlogo {
-    text-align: center;
-  }
-
-  .boton-cerrar {
-    background-color: $white;
-  }
-
-  hr {
-    color: $white;
-    width: 5em;
-    margin: auto;
-    border: 1.5px solid;
-  }
-
-  .elementos-menu {
-    text-align: center;
-
-  }
-
-  .menu-title {
-    width: 40%;
-    margin: 0 0 1em 0;
-  }
-
-  .menu-item {
-    margin: 0.5em;
-  }
-
-  //menu amburguesa Fin
-
-
-  // top bar inicio
-  .top-bar {
-    background-color: $black;
+  .lupa {
+    display: none;
   }
 
   .logo-top-bar {
     padding: 0.5em;
-    margin: -4% 0 0 28%;
-    width: 20%;
+    margin: 0 0 0 1%;
+    width: 5%;
   }
 
-  .boton-buscar {
-    color: $white;
-    background-color: $black;
-    border: none;
+  //fin header compu
+
+
+
+  //welcome section inicio
+
+  .img-fluid {
+    width: 100%;
   }
 
-  // top bar fin
+  //welcome section fin
 
-
-  // top bar buscar inicio
-
-  .lupa {
-    text-decoration: none;
-    font-size: 2em;
-    color: $white;
-  }
-
-
-  .boton-buscar {
-    color: $white;
-    background-color: $black;
-    border: none;
-  }
-
-  .barra-buscar {
-    margin: 0 10%;
-  }
-
-  .icono-buscar {
-    left: 88%;
-    top: 1em;
-    position: absolute;
-  }
-
-  .mob-close {
-    color: #ffff;
-    font-size: 2em;
-    background: none;
-    box-sizing: content-box;
-    width: 1em;
-    height: 1em;
-    padding: .25em .25em;
-    border: none;
-  }
-
-  // top bar buscar fin
-
-
-  // Articulos
-
-  //.karaoke{
-  //  background: url(../imgs/boxs/karaoke-box.png);
-  //  background-size:cover ;
-  //}
-
-  .informacion {
-    color: $white1;
-    font-size: 16px;
-  }
+  //articulos inicio
 
   .karaoke-box {
-    padding-top: 20%;
-    padding-bottom: 15%;
-    background: url(../imgs/boxs/karaoke-box.png)no-repeat center;
-    background-size: cover;
+    padding-top: 0;
+    padding-bottom: 0;
+    background: url(../imgs/boxs_desktop/karaoke-box-desktop.png)no-repeat center;
+    background-size:contain ;
   }
 
   .cosplay-box {
-    padding-top: 20%;
-    padding-bottom: 15%;
-    background: url(../imgs/boxs/cosplay-box.png)no-repeat center;
-    background-size: cover;
+    padding-top: 0;
+    padding-bottom: 0;
+    background: url(../imgs/boxs_desktop/cosplay-box-desktop.png)no-repeat center;
+    background-size: contain;
   }
 
   .torneo-box {
-    padding-top: 20%;
-    padding-bottom: 15%;
-    background: url(../imgs/boxs/torneo-box.png)no-repeat center;
-    background-size: cover;
+    padding-top: 0;
+    padding-bottom: 0;
+    background: url(../imgs/boxs_desktop/torneo-box-desktop.png)no-repeat center;
+    background-size: contain;
   }
 
   .entrevista-box {
-    padding-top: 20%;
-    padding-bottom: 15%;
-    background: url(../imgs/boxs/entrevista-box.png)no-repeat center;
-    background-size: cover;
+    padding-top: 0;
+    padding-bottom: 0;
+    background: url(../imgs/boxs_desktop/entrevista-box-desktop.png)no-repeat center;
+    background-size: contain;
   }
 
-  .entrevista-box {
-    padding-top: 20%;
-    padding-bottom: 15%;
-    background: url(../imgs/boxs/firmas-box.png)no-repeat center;
-    background-size: cover;
+  .firmas-box {
+    padding-top: 0;
+    padding-bottom: 0;
+    background: url(../imgs/boxs_desktop/firmas-box-desktop.png)no-repeat center;
+    background-size: contain;
   }
 
   .exclusiva-box {
-    padding-top: 20%;
-    padding-bottom: 15%;
-    background: url(../imgs/boxs/anuncio-box.png)no-repeat center;
-    background-size: cover;
+    padding-top: 0;
+    padding-bottom: 0;
+    background: url(../imgs/boxs_desktop/anuncio-box-desktop.png)no-repeat center;
+    background-size: contain;
+  }
+
+  .elementos-box{
+    margin: 20% 15% 10% 15%; 
+
   }
 
   .boton-row {
-    margin-top: 2%;
+    margin-top: -5%;
+    margin-left: -43%;
+    width: 80%;
   }
 
+  //articulos fin
 
+
+  //footer
   .copyrigth-text {
-    margin-top: 10%;
-    padding: 5%;
+    text-align: center;
+    padding: 1%;
     background-color: black;
     color: white;
-    font-size: 10px;
+    font-size: 15px;
   }
 
-.panel-buscar{
-  animation: moveToLeft 5s linear infinite;
 }
-
-
-
-
-
-
-}
-
-//fin media de celular

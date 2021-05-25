@@ -69,7 +69,8 @@
                 <a class="fas fa-search lupa" data-bs-toggle="offcanvas" href="#offcanvas"
                     data-bs-target="#offcanvasRight" aria-controls="offcanvasRight"></a>
 
-                <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasRight" aria-labelledby="offcanvasRightLabel">
+                <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasRight"
+                    aria-labelledby="offcanvasRightLabel">
 
                     <div class="offcanvas-header header_menu">
                         <img class="logo-menu" src="imgs/p5_logo.png">
@@ -108,134 +109,150 @@
         <div class="container">
             <div class="row">
 
-                <div class="col-sm-4 karaoke-box">
-                    <div class="row">
-                        <div class="col informacion">
-                            #Categoria <br>
-                            Lugar: Salon B6<br>
-                            Fecha: 18/09/2020<br>
-                            Hora: 5:00 pm<br>
-                            Precio: ₡5000<br>
-                            Para: +18<br>
+                <div class="col-sm-6 karaoke-box">
+                    <div class="elementos-box">
+                        <div class="row">
+                            <div class="col informacion">
+                                #Categoria <br>
+                                Lugar: Salon B6<br>
+                                Fecha: 18/09/2020<br>
+                                Hora: 5:00 pm<br>
+                                Precio: ₡5000<br>
+                                Para: +18<br>
+                            </div>
+                            <div class="col">
+                                <img class="img-fluid imagen-articulo" src="imgs/box_imgs/karaoke_img.png"
+                                    alt="Karaoke">
+                            </div>
                         </div>
-                        <div class="col">
-                            <img class="img-fluid" src="imgs/box_imgs/karaoke_img.png" alt="Karaoke">
-                        </div>
-                    </div>
-                    <div class="row boton-row">
-                        <div class="col"></div>
-                        <div class="col">
-                            <a><img class="img-fluid" src="imgs/box_imgs/aprende-mas_btn.png" alt="Karaoke"></a>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="col-sm-4 cosplay-box">
-                    <div class="row">
-                        <div class="col informacion">
-                            #Categoria <br>
-                            Lugar: Salon B6<br>
-                            Fecha: 18/09/2020<br>
-                            Hora: 5:00 pm<br>
-                            Precio: ₡5000<br>
-                            Para: +18<br>
-                        </div>
-                        <div class="col">
-                            <img class="img-fluid" src="imgs/box_imgs/cosplay_img.png" alt="Karaoke">
-                        </div>
-                    </div>
-                    <div class="row boton-row">
-                        <div class="col"></div>
-                        <div class="col">
-                            <a><img class="img-fluid" src="imgs/box_imgs/aprende-mas_btn.png" alt="Karaoke"></a>
+                        <div class="row boton-row">
+                            <div class="col"></div>
+                            <div class="col">
+                                <a><img class="img-fluid" src="imgs/box_imgs/aprende-mas_btn.png" alt="Karaoke"></a>
+                            </div>
                         </div>
                     </div>
                 </div>
 
-                <div class="col-sm-4 torneo-box">
-                    <div class="row">
-                        <div class="col informacion">
-                            #Categoria <br>
-                            Lugar: Salon B6<br>
-                            Fecha: 18/09/2020<br>
-                            Hora: 5:00 pm<br>
-                            Precio: ₡5000<br>
-                            Para: +18<br>
+                <div class="col-sm-6 cosplay-box">
+                    <div class="elementos-box">
+                        <div class="row">
+                            <div class="col informacion">
+                                #Categoria <br>
+                                Lugar: Salon B6<br>
+                                Fecha: 18/09/2020<br>
+                                Hora: 5:00 pm<br>
+                                Precio: ₡5000<br>
+                                Para: +18<br>
+                            </div>
+                            <div class="col">
+                                <img class="img-fluid imagen-articulo" src="imgs/box_imgs/cosplay_img.png"
+                                    alt="Karaoke">
+                            </div>
                         </div>
-                        <div class="col">
-                            <img class="img-fluid" src="imgs/box_imgs/torneo_img.png" alt="Karaoke">
-                        </div>
-                    </div>
-                    <div class="row boton-row">
-                        <div class="col"></div>
-                        <div class="col">
-                            <a><img class="img-fluid" src="imgs/box_imgs/aprende-mas_btn.png" alt="Karaoke"></a>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="col-sm-4 entrevista-box">
-                    <div class="row">
-                        <div class="col informacion">
-                            #Categoria <br>
-                            Lugar: Salon B6<br>
-                            Fecha: 18/09/2020<br>
-                            Hora: 5:00 pm<br>
-                            Precio: ₡5000<br>
-                            Para: +18<br>
-                        </div>
-                        <div class="col">
-                            <img class="img-fluid" src="imgs/box_imgs/entrevista_img.png" alt="Karaoke">
-                        </div>
-                    </div>
-                    <div class="row boton-row">
-                        <div class="col"></div>
-                        <div class="col">
-                            <a><img class="img-fluid" src="imgs/box_imgs/aprende-mas_btn.png" alt="Karaoke"></a>
+                        <div class="row boton-row">
+                            <div class="col"></div>
+                            <div class="col">
+                                <a><img class="img-fluid" src="imgs/box_imgs/aprende-mas_btn.png" alt="Karaoke"></a>
+                            </div>
                         </div>
                     </div>
                 </div>
 
-                <div class="col-sm-4 karaoke-box">
-                    <div class="row">
-                        <div class="col informacion">
-                            #Categoria <br>
-                            Lugar: Salon B6<br>
-                            Fecha: 18/09/2020<br>
-                            Hora: 5:00 pm<br>
-                            Precio: ₡5000<br>
-                            Para: +18<br>
+                <div class="col-sm-6 torneo-box">
+                    <div class="elementos-box">
+                        <div class="row">
+                            <div class="col informacion">
+                                #Categoria <br>
+                                Lugar: Salon B6<br>
+                                Fecha: 18/09/2020<br>
+                                Hora: 5:00 pm<br>
+                                Precio: ₡5000<br>
+                                Para: +18<br>
+                            </div>
+                            <div class="col">
+                                <img class="img-fluid imagen-articulo" src="imgs/box_imgs/torneo_img.png" alt="Karaoke">
+                            </div>
                         </div>
-                        <div class="col">
-                            <img class="img-fluid" src="imgs/box_imgs/firmas-img.png" alt="Karaoke">
-                        </div>
-                    </div>
-                    <div class="row boton-row">
-                        <div class="col"></div>
-                        <div class="col">
-                            <a><img class="img-fluid" src="imgs/box_imgs/aprende-mas_btn.png" alt="Karaoke"></a>
+                        <div class="row boton-row">
+                            <div class="col"></div>
+                            <div class="col">
+                                <a><img class="img-fluid" src="imgs/box_imgs/aprende-mas_btn.png" alt="Karaoke"></a>
+                            </div>
                         </div>
                     </div>
                 </div>
 
-                <div class="col-sm-4 exclusiva-box">
-                    <div class="row">
-                        <div class="col informacion">
-                            #Categoria <br>
-                            Lugar: Salon B6<br>
-                            Fecha: 18/09/2020<br>
-                            Hora: 5:00 pm<br>
-                            Precio: ₡5000<br>
-                            Para: +18<br>
+                <div class="col-sm-6 entrevista-box">
+                    <div class="elementos-box">
+                        <div class="row">
+                            <div class="col informacion">
+                                #Categoria <br>
+                                Lugar: Salon B6<br>
+                                Fecha: 18/09/2020<br>
+                                Hora: 5:00 pm<br>
+                                Precio: ₡5000<br>
+                                Para: +18<br>
+                            </div>
+                            <div class="col">
+                                <img class="img-fluid imagen-articulo" src="imgs/box_imgs/entrevista_img.png"
+                                    alt="Karaoke">
+                            </div>
                         </div>
-                        <div class="col">
-                            <img class="img-fluid" src="imgs/box_imgs/exclusivo_img.png" alt="Karaoke">
+                        <div class="row boton-row">
+                            <div class="col"></div>
+                            <div class="col">
+                                <a><img class="img-fluid" src="imgs/box_imgs/aprende-mas_btn.png" alt="Karaoke"></a>
+                            </div>
                         </div>
                     </div>
-                    <div class="row boton-row">
-                        <div class="col"></div>
-                        <div class="col">
-                            <a><img class="img-fluid" src="imgs/box_imgs/aprende-mas_btn.png" alt="Karaoke"></a>
+                </div>
+
+                <div class="col-sm-6 firmas-box">
+                    <div class="elementos-box">
+                        <div class="row">
+                            <div class="col informacion">
+                                #Categoria <br>
+                                Lugar: Salon B6<br>
+                                Fecha: 18/09/2020<br>
+                                Hora: 5:00 pm<br>
+                                Precio: ₡5000<br>
+                                Para: +18<br>
+                            </div>
+                            <div class="col">
+                                <img class="img-fluid imagen-articulo" src="imgs/box_imgs/firmas-img.png" alt="Karaoke">
+                            </div>
+                        </div>
+                        <div class="row boton-row">
+                            <div class="col"></div>
+                            <div class="col">
+                                <a><img class="img-fluid" src="imgs/box_imgs/aprende-mas_btn.png" alt="Karaoke"></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-sm-6 exclusiva-box">
+                    <div class="elementos-box">
+                        <div class="row">
+                            <div class="col informacion">
+                                #Categoria <br>
+                                Lugar: Salon B6<br>
+                                Fecha: 18/09/2020<br>
+                                Hora: 5:00 pm<br>
+                                Precio: ₡5000<br>
+                                Para: +18<br>
+                            </div>
+                            <div class="col">
+                                <img class="img-fluid imagen-articulo" src="imgs/box_imgs/exclusivo_img.png"
+                                    alt="Karaoke">
+                            </div>
+                        </div>
+                        <div class="row boton-row">
+                            <div class="col"></div>
+                            <div class="col">
+                                <a><img class="img-fluid" src="imgs/box_imgs/aprende-mas_btn.png" alt="Karaoke"></a>
+                            </div>
                         </div>
                     </div>
                 </div>
