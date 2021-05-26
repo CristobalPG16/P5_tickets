@@ -52,7 +52,7 @@
                     <a href="#"><img class="menu-title" src="imgs/Menu_btn.png"></a>
 
                     <hr>
-                   
+
                     <a href="#"><img class="menu-item" src="imgs/Eventos_btn.png"></a>
                     <a href="#"><img class="menu-item" src="imgs/Categoria_btn.png"></a>
                 </div>
@@ -60,7 +60,7 @@
             </div>
 
             <!-- imagen del centro del top bar -->
-            <img class="logo-top-bar" src="imgs/p5_logo.png">
+            <a href="index.php"><img class="logo-top-bar" src="imgs/p5_logo.png"></a>
 
 
             <!-- search button -->
@@ -133,11 +133,52 @@
                 </div>
 
                 <div class="col-sm-12">
-                    <a href="#"><img class="img-fluid boton-aprende-mas" src="imgs/boton_registrarte.png"
-                            alt="boton aprende mas" loading="lazy"></a>
+                    <a href="#"><img class="img-fluid boton-aprende-mas" data-bs-toggle="modal"
+                            href="#exampleModalToggle" src="imgs/boton_registrarte.png" alt="boton aprende mas"
+                            loading="lazy"></a>
                 </div>
             </div>
 
+        </div>
+    </section>
+
+    <section class="pop-up1">
+
+        <div class="modal fade" id="exampleModalToggle" aria-hidden="true" aria-labelledby="exampleModalToggleLabel"
+            tabindex="-1">
+            <div class="modal-dialog modal-dialog-centered">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h5 class="modal-title" id="exampleModalToggleLabel">Modal 1</h5>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    </div>
+                    <div class="modal-body">
+                        Show a second modal and hide this one with the button below.
+                    </div>
+                    <div class="modal-footer">
+                        <button class="btn btn-primary" data-bs-target="#exampleModalToggle2" data-bs-toggle="modal"
+                            data-bs-dismiss="modal">Open second modal</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="modal fade" id="exampleModalToggle2" aria-hidden="true" aria-labelledby="exampleModalToggleLabel2"
+            tabindex="-1">
+            <div class="modal-dialog modal-dialog-centered">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h5 class="modal-title" id="exampleModalToggleLabel2">Modal 2</h5>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    </div>
+                    <div class="modal-body">
+                        Hide this modal and show the first with the button below.
+                    </div>
+                    <div class="modal-footer">
+                        <button class="btn btn-primary" data-bs-target="#exampleModalToggle" data-bs-toggle="modal"
+                            data-bs-dismiss="modal">Back to first</button>
+                    </div>
+                </div>
+            </div>
         </div>
 
     </section>
@@ -149,36 +190,44 @@
 
         <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
             <div class="carousel-inner">
-              <div class="carousel-item active">
-                <a href="PaginaDetalle.php"><img src="/imgs/miniaturas/cosplay-mini.png" class="d-block w-100" alt="miniatura de cosplays" loading="lazy"></a>
-              </div>
-              <div class="carousel-item">
-                <a href="PaginaDetalle.php"><img src="/imgs/miniaturas/entrevista-mini.png" class="d-block w-100" alt="miniatura de entrevistas" loading="lazy"></a>
-              </div>
-              <div class="carousel-item">
-                <a href="PaginaDetalle.php"><img src="/imgs/miniaturas/exclusiva-mini.png" class="d-block w-100" alt="miniatura de exclusiva" loading="lazy"></a>
-              </div>
-              <div class="carousel-item">
-                <a href="PaginaDetalle.php"><img src="/imgs/miniaturas/firmas-mini.png" class="d-block w-100" alt="miniatura de firmas" loading="lazy"></a>
-              </div>
-              <div class="carousel-item">
-                <a href="PaginaDetalle.php"><img src="/imgs/miniaturas/karaoke-mini.png" class="d-block w-100" alt="miniatura de karaoke" loading="lazy"></a>
-              </div>
-              <div class="carousel-item">
-                <a href="PaginaDetalle.php"><img src="/imgs/miniaturas/torneo-mini.png" class="d-block w-100" alt="miniatura de torneo" loading="lazy"></a>
-              </div>
+                <div class="carousel-item active">
+                    <a href="PaginaDetalle.php"><img src="/imgs/miniaturas/cosplay-mini.png" class="d-block w-100"
+                            alt="miniatura de cosplays" loading="lazy"></a>
+                </div>
+                <div class="carousel-item">
+                    <a href="PaginaDetalle.php"><img src="/imgs/miniaturas/entrevista-mini.png" class="d-block w-100"
+                            alt="miniatura de entrevistas" loading="lazy"></a>
+                </div>
+                <div class="carousel-item">
+                    <a href="PaginaDetalle.php"><img src="/imgs/miniaturas/exclusiva-mini.png" class="d-block w-100"
+                            alt="miniatura de exclusiva" loading="lazy"></a>
+                </div>
+                <div class="carousel-item">
+                    <a href="PaginaDetalle.php"><img src="/imgs/miniaturas/firmas-mini.png" class="d-block w-100"
+                            alt="miniatura de firmas" loading="lazy"></a>
+                </div>
+                <div class="carousel-item">
+                    <a href="PaginaDetalle.php"><img src="/imgs/miniaturas/karaoke-mini.png" class="d-block w-100"
+                            alt="miniatura de karaoke" loading="lazy"></a>
+                </div>
+                <div class="carousel-item">
+                    <a href="PaginaDetalle.php"><img src="/imgs/miniaturas/torneo-mini.png" class="d-block w-100"
+                            alt="miniatura de torneo" loading="lazy"></a>
+                </div>
             </div>
 
-            <button class="carousel-control-prev flechas" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
+            <button class="carousel-control-prev flechas" type="button" data-bs-target="#carouselExampleControls"
+                data-bs-slide="prev">
                 <img class="img-fluid" src="/imgs/miniaturas/flecha_izquierda.png" alt="flecha izquierda">
             </button>
 
-            <button class="carousel-control-next flechas" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
-              <img class="img-fluid" src="/imgs/miniaturas/flecha_derecha.png" alt="flecha derecha">
+            <button class="carousel-control-next flechas" type="button" data-bs-target="#carouselExampleControls"
+                data-bs-slide="next">
+                <img class="img-fluid" src="/imgs/miniaturas/flecha_derecha.png" alt="flecha derecha">
             </button>
 
-          </div>
-          
+        </div>
+
     </section>
 
     <footer>

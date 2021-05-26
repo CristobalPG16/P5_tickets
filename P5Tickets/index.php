@@ -60,7 +60,7 @@
             </div>
 
             <!-- imagen del centro del top bar -->
-            <img class="logo-top-bar" src="imgs/p5_logo.png">
+            <a href="index.php"><img class="logo-top-bar" src="imgs/p5_logo.png"></a>
 
 
             <!-- search button -->
