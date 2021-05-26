@@ -187,6 +187,7 @@ h2{
   opacity: 100%;
 }
 
+
 //footer
 
 .copyrigth-text {
@@ -223,11 +224,75 @@ h2{
 
   //fin header compu
 
+  //seccion de detalle inicio
+
+.section-detalle{
+  background: url(../imgs/boxs/Background_Detalle_desktop.png)no-repeat center;
+  background-size:contain;
+  margin: 2% 0;
+}
+
+.all-information{
+  padding: 15% 20% 7% 20%;
+}
+
+.info{
+  width: 100%;
+  margin-left: 20%;
+  margin-top: -10%;
+}
+
+.imagen{
+  width: 100%;
+  margin-right: 20%;
+  margin-top: -10%;
+}
+
+h1{
+font-size: 28px;
+}
+
+h2{
+  font-size: 18px;
+  margin: 7% 20% 0 20%;
+}
+
+.boton-aprende-mas{
+  margin: 0 0 0 50%;
+}
+
+.row{
+  --bs-gutter-x:auto;
+}
+
+//seccion de detalle fin
 
 
+//seccion de eventos similares 
+
+.imagen-eventos-similares{
+  padding: 0 5% 10% 5%;
+}
 
 
+.flechas{
+  opacity: 100%;
+}
+  //fin de seccion de detalle
 
+
+  //inicio de seccion de eventos similare
+
+  .eventos-similares{
+    margin: 5% 25% 0 25%;
+  }
+
+  .carousel-item{
+    width: 70%;
+    margin-left: 15%;
+  }
+
+  //fin de seccion de detalle
 
   //footer
   .copyrigth-text {

@@ -52,7 +52,7 @@
                     <a href="#"><img class="menu-title" src="imgs/Menu_btn.png"></a>
 
                     <hr>
-
+                   
                     <a href="#"><img class="menu-item" src="imgs/Eventos_btn.png"></a>
                     <a href="#"><img class="menu-item" src="imgs/Categoria_btn.png"></a>
                 </div>
@@ -150,22 +150,22 @@
         <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
             <div class="carousel-inner">
               <div class="carousel-item active">
-                <a href="PaginaDetalle.html"><img src="/imgs/miniaturas/cosplay-mini.png" class="d-block w-100" alt="miniatura de cosplays" loading="lazy"></a>
+                <a href="PaginaDetalle.php"><img src="/imgs/miniaturas/cosplay-mini.png" class="d-block w-100" alt="miniatura de cosplays" loading="lazy"></a>
               </div>
               <div class="carousel-item">
-                <a href="PaginaDetalle.html"><img src="/imgs/miniaturas/entrevista-mini.png" class="d-block w-100" alt="miniatura de entrevistas" loading="lazy"></a>
+                <a href="PaginaDetalle.php"><img src="/imgs/miniaturas/entrevista-mini.png" class="d-block w-100" alt="miniatura de entrevistas" loading="lazy"></a>
               </div>
               <div class="carousel-item">
-                <a href="PaginaDetalle.html"><img src="/imgs/miniaturas/exclusiva-mini.png" class="d-block w-100" alt="miniatura de exclusiva" loading="lazy"></a>
+                <a href="PaginaDetalle.php"><img src="/imgs/miniaturas/exclusiva-mini.png" class="d-block w-100" alt="miniatura de exclusiva" loading="lazy"></a>
               </div>
               <div class="carousel-item">
-                <a href="PaginaDetalle.html"><img src="/imgs/miniaturas/firmas-mini.png" class="d-block w-100" alt="miniatura de firmas" loading="lazy"></a>
+                <a href="PaginaDetalle.php"><img src="/imgs/miniaturas/firmas-mini.png" class="d-block w-100" alt="miniatura de firmas" loading="lazy"></a>
               </div>
               <div class="carousel-item">
-                <a href="PaginaDetalle.html"><img src="/imgs/miniaturas/karaoke-mini.png" class="d-block w-100" alt="miniatura de karaoke" loading="lazy"></a>
+                <a href="PaginaDetalle.php"><img src="/imgs/miniaturas/karaoke-mini.png" class="d-block w-100" alt="miniatura de karaoke" loading="lazy"></a>
               </div>
               <div class="carousel-item">
-                <a href="PaginaDetalle.html"><img src="/imgs/miniaturas/torneo-mini.png" class="d-block w-100" alt="miniatura de torneo" loading="lazy"></a>
+                <a href="PaginaDetalle.php"><img src="/imgs/miniaturas/torneo-mini.png" class="d-block w-100" alt="miniatura de torneo" loading="lazy"></a>
               </div>
             </div>
 

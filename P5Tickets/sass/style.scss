@@ -167,7 +167,7 @@ hr {
   background-size: cover;
 }
 
-.entrevista-box {
+.firmas-box {
   padding-top: 20%;
   padding-bottom: 15%;
   background: url(../imgs/boxs/firmas-box.png)no-repeat center;
@@ -219,6 +219,10 @@ hr {
     padding: 0.5em;
     margin: 0 0 0 1%;
     width: 5%;
+  }
+
+  .items-del-menu{
+    position:absolute;
   }
 
   //fin header compu

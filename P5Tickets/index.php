@@ -128,7 +128,7 @@
                         <div class="row boton-row">
                             <div class="col"></div>
                             <div class="col">
-                                <a href="PaginaDetalle.html"><img class="img-fluid" src="imgs/box_imgs/aprende-mas_btn.png" alt="boton aprende mas"></a>
+                                <a href="PaginaDetalle.php"><img class="img-fluid" src="imgs/box_imgs/aprende-mas_btn.png" alt="boton aprende mas"></a>
                             </div>
                         </div>
                     </div>
@@ -153,7 +153,7 @@
                         <div class="row boton-row">
                             <div class="col"></div>
                             <div class="col">
-                                <a href="PaginaDetalle.html"><img class="img-fluid" src="imgs/box_imgs/aprende-mas_btn.png" alt="boton aprende mas"></a>
+                                <a href="PaginaDetalle.php"><img class="img-fluid" src="imgs/box_imgs/aprende-mas_btn.png" alt="boton aprende mas"></a>
                             </div>
                         </div>
                     </div>
@@ -177,7 +177,7 @@
                         <div class="row boton-row">
                             <div class="col"></div>
                             <div class="col">
-                                <a href="PaginaDetalle.html"><img class="img-fluid" src="imgs/box_imgs/aprende-mas_btn.png" alt="boton aprende mas"></a>
+                                <a href="PaginaDetalle.php"><img class="img-fluid" src="imgs/box_imgs/aprende-mas_btn.png" alt="boton aprende mas"></a>
                             </div>
                         </div>
                     </div>
@@ -202,7 +202,7 @@
                         <div class="row boton-row">
                             <div class="col"></div>
                             <div class="col">
-                                <a href="PaginaDetalle.html"><img class="img-fluid" src="imgs/box_imgs/aprende-mas_btn.png" alt="boton aprende mas"></a>
+                                <a href="PaginaDetalle.php"><img class="img-fluid" src="imgs/box_imgs/aprende-mas_btn.png" alt="boton aprende mas"></a>
                             </div>
                         </div>
                     </div>
@@ -226,7 +226,7 @@
                         <div class="row boton-row">
                             <div class="col"></div>
                             <div class="col">
-                                <a href="PaginaDetalle.html"><img class="img-fluid" src="imgs/box_imgs/aprende-mas_btn.png" alt="boton aprende mas" ></a>
+                                <a href="PaginaDetalle.php"><img class="img-fluid" src="imgs/box_imgs/aprende-mas_btn.png" alt="boton aprende mas" ></a>
                             </div>
                         </div>
                     </div>
@@ -251,7 +251,7 @@
                         <div class="row boton-row">
                             <div class="col"></div>
                             <div class="col">
-                                <a href="PaginaDetalle.html"><img class="img-fluid" src="imgs/box_imgs/aprende-mas_btn.png" alt="boton aprende mas"></a>
+                                <a href="PaginaDetalle.php"><img class="img-fluid" src="imgs/box_imgs/aprende-mas_btn.png" alt="boton aprende mas"></a>
                             </div>
                         </div>
                     </div>
