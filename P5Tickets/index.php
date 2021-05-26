@@ -122,13 +122,13 @@
                             </div>
                             <div class="col">
                                 <img class="img-fluid imagen-articulo" src="imgs/box_imgs/karaoke_img.png"
-                                    alt="Karaoke">
+                                    alt="Karaoke" loading="lazy">
                             </div>
                         </div>
                         <div class="row boton-row">
                             <div class="col"></div>
                             <div class="col">
-                                <a><img class="img-fluid" src="imgs/box_imgs/aprende-mas_btn.png" alt="Karaoke"></a>
+                                <a href="PaginaDetalle.html"><img class="img-fluid" src="imgs/box_imgs/aprende-mas_btn.png" alt="boton aprende mas"></a>
                             </div>
                         </div>
                     </div>
@@ -147,13 +147,13 @@
                             </div>
                             <div class="col">
                                 <img class="img-fluid imagen-articulo" src="imgs/box_imgs/cosplay_img.png"
-                                    alt="Karaoke">
+                                    alt="imagen del cosplay" loading="lazy">
                             </div>
                         </div>
                         <div class="row boton-row">
                             <div class="col"></div>
                             <div class="col">
-                                <a><img class="img-fluid" src="imgs/box_imgs/aprende-mas_btn.png" alt="Karaoke"></a>
+                                <a href="PaginaDetalle.html"><img class="img-fluid" src="imgs/box_imgs/aprende-mas_btn.png" alt="boton aprende mas"></a>
                             </div>
                         </div>
                     </div>
@@ -171,13 +171,13 @@
                                 Para: +18<br>
                             </div>
                             <div class="col">
-                                <img class="img-fluid imagen-articulo" src="imgs/box_imgs/torneo_img.png" alt="Karaoke">
+                                <img class="img-fluid imagen-articulo" src="imgs/box_imgs/torneo_img.png" alt="imagen del torneo" loading="lazy">
                             </div>
                         </div>
                         <div class="row boton-row">
                             <div class="col"></div>
                             <div class="col">
-                                <a><img class="img-fluid" src="imgs/box_imgs/aprende-mas_btn.png" alt="Karaoke"></a>
+                                <a href="PaginaDetalle.html"><img class="img-fluid" src="imgs/box_imgs/aprende-mas_btn.png" alt="boton aprende mas"></a>
                             </div>
                         </div>
                     </div>
@@ -196,13 +196,13 @@
                             </div>
                             <div class="col">
                                 <img class="img-fluid imagen-articulo" src="imgs/box_imgs/entrevista_img.png"
-                                    alt="Karaoke">
+                                    alt="imagen de entrevistas" loading="lazy">
                             </div>
                         </div>
                         <div class="row boton-row">
                             <div class="col"></div>
                             <div class="col">
-                                <a><img class="img-fluid" src="imgs/box_imgs/aprende-mas_btn.png" alt="Karaoke"></a>
+                                <a href="PaginaDetalle.html"><img class="img-fluid" src="imgs/box_imgs/aprende-mas_btn.png" alt="boton aprende mas"></a>
                             </div>
                         </div>
                     </div>
@@ -220,13 +220,13 @@
                                 Para: +18<br>
                             </div>
                             <div class="col">
-                                <img class="img-fluid imagen-articulo" src="imgs/box_imgs/firmas-img.png" alt="Karaoke">
+                                <img class="img-fluid imagen-articulo" src="imgs/box_imgs/firmas-img.png" alt="imagen de firmas" loading="lazy">
                             </div>
                         </div>
                         <div class="row boton-row">
                             <div class="col"></div>
                             <div class="col">
-                                <a><img class="img-fluid" src="imgs/box_imgs/aprende-mas_btn.png" alt="Karaoke"></a>
+                                <a href="PaginaDetalle.html"><img class="img-fluid" src="imgs/box_imgs/aprende-mas_btn.png" alt="boton aprende mas" ></a>
                             </div>
                         </div>
                     </div>
@@ -245,13 +245,13 @@
                             </div>
                             <div class="col">
                                 <img class="img-fluid imagen-articulo" src="imgs/box_imgs/exclusivo_img.png"
-                                    alt="Karaoke">
+                                    alt="imagen de la exclusiva" loading="lazy">
                             </div>
                         </div>
                         <div class="row boton-row">
                             <div class="col"></div>
                             <div class="col">
-                                <a><img class="img-fluid" src="imgs/box_imgs/aprende-mas_btn.png" alt="Karaoke"></a>
+                                <a href="PaginaDetalle.html"><img class="img-fluid" src="imgs/box_imgs/aprende-mas_btn.png" alt="boton aprende mas"></a>
                             </div>
                         </div>
                     </div>
@@ -266,7 +266,7 @@
     <footer>
 
         <section class="copyrigth-text">
-            <p>Copyright © 2021 P5. All rights reserved. The order process, tax issue and invoicing to end user is
+            <p class="texto-footer">Copyright © 2021 P5. All rights reserved. The order process, tax issue and invoicing to end user is
                 conducted by Wondershare Technology Co., Ltd, which is the subsidiary of Wondershare group.</p>
         </section>
 
