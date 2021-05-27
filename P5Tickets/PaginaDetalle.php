@@ -133,49 +133,119 @@
                 </div>
 
                 <div class="col-sm-12">
-                    <a href="#"><img class="img-fluid boton-aprende-mas" data-bs-toggle="modal"
-                            href="#exampleModalToggle" src="imgs/boton_registrarte.png" alt="boton aprende mas"
-                            loading="lazy"></a>
+                    <a><img class="img-fluid boton-aprende-mas" data-bs-toggle="modal" href="#modal1"
+                            src="imgs/boton_registrarte.png" alt="boton aprende mas" loading="lazy"></a>
                 </div>
             </div>
 
         </div>
     </section>
 
-    <section class="pop-up1">
+    <section class="pop-up">
 
-        <div class="modal fade" id="exampleModalToggle" aria-hidden="true" aria-labelledby="exampleModalToggleLabel"
-            tabindex="-1">
-            <div class="modal-dialog modal-dialog-centered">
-                <div class="modal-content">
+        <!--seccion 1 del pop up-->
+        <div class="modal fade" id="modal1" aria-hidden="true" aria-labelledby="modal1" tabindex="-1">
+            <div class="modal-dialog modal-dialog-centered background-popup1">
+                <div class="modal-content contenido-popup">
+
                     <div class="modal-header">
-                        <h5 class="modal-title" id="exampleModalToggleLabel">Modal 1</h5>
-                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                        <h4 class="modal-title" id="exampleModalToggleLabel">Registrarse para el evento</h4>
+                        <button type="button" class="mob-close fas fa-times" data-bs-dismiss="modal"
+                            aria-label="Close"></button>
+                    </div>
+
+                    <div class="modal-body">
+
+                        <div class="row">
+                            <div class="col">
+                                <label for="inputName" class="form-label">Personas Mayores de edad</label>
+                            </div>
+                            <div class="col">
+                                <input type="text" class="form-control" id="mayores">
+                            </div>
+                            <div class="col checkbox">
+                                <input type="checkbox" class="form-check-input" id="exampleCheck1"><br>
+                            </div>
+                        </div>
+
+                        <div class="row">
+                            <div class="col">
+                                <label for="inputName" class="form-label">Personas Menores de edad</label>
+                            </div>
+                            <div class="col">
+                                <input type="text" class="form-control" id="menores">
+                            </div>
+                            <div class="col checkbox">
+                                <input type="checkbox" class="form-check-input" id="exampleCheck1">
+                            </div>
+                        </div>
+                        <p>
+                            Costo por menor de edad: ₡5000 <br>
+                            costo por mayor de edad: ₡7000 <br>
+                            costo total: ₡0000 <br>
+                        </p>
+
+                    </div>
+
+                    <div class="modal-footer">
+                        <img class="imagen-boton-confirmar" data-bs-target="#modal2" data-bs-toggle="modal"
+                            data-bs-dismiss="modal" src="/imgs/boton-confirmar.png" alt="">
+                    </div>
+
+                </div>
+            </div>
+        </div>
+
+        <!--seccion 2 del pop up-->
+        <div class="modal fade" id="modal2" aria-hidden="true" aria-labelledby="modal2" tabindex="-1">
+            <div class="modal-dialog modal-dialog-centered background-popup">
+                <div class="modal-content contenido-popup">
+                    <div class="modal-header">
+                        <h5 class="modal-title" id="exampleModalToggleLabel2">Confirmar el registro</h5>
+                        <button type="button" class="mob-close fas fa-times" data-bs-dismiss="modal"
+                            aria-label="Close"></button>
                     </div>
                     <div class="modal-body">
-                        Show a second modal and hide this one with the button below.
+                        <div class="mb-3">
+                            <label for="inputName" class="form-label">Nombre Completo</label>
+                            <input type="text" class="form-control" id="inputName">
+                        </div>
+                        <div class="mb-3">
+                            <label for="exampleInputEmail1" class="form-label">Correo Electronico</label>
+                            <input type="email" class="form-control" id="exampleInputEmail1"
+                                aria-describedby="emailHelp">
+                        </div>
                     </div>
                     <div class="modal-footer">
-                        <button class="btn btn-primary" data-bs-target="#exampleModalToggle2" data-bs-toggle="modal"
-                            data-bs-dismiss="modal">Open second modal</button>
+                        <img class="imagen-boton-confirmar" data-bs-target="#modal3" data-bs-toggle="modal"
+                            data-bs-dismiss="modal" src="/imgs/boton-confirmar.png" alt="">
                     </div>
                 </div>
             </div>
         </div>
-        <div class="modal fade" id="exampleModalToggle2" aria-hidden="true" aria-labelledby="exampleModalToggleLabel2"
-            tabindex="-1">
-            <div class="modal-dialog modal-dialog-centered">
-                <div class="modal-content">
+
+        <!--seccion 3 del pop up-->
+        <div class="modal fade" id="modal3" aria-hidden="true" aria-labelledby="modal3" tabindex="-1">
+            <div class="modal-dialog modal-dialog-centered background-popup">
+                <div class="modal-content contenido-popup">
                     <div class="modal-header">
-                        <h5 class="modal-title" id="exampleModalToggleLabel2">Modal 2</h5>
-                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                        <h4 class="modal-title" id="exampleModalToggleLabel">Resumen de la reservación</h4>
+                        <button type="button" class="mob-close fas fa-times" data-bs-dismiss="modal"
+                            aria-label="Close"></button>
                     </div>
                     <div class="modal-body">
-                        Hide this modal and show the first with the button below.
+
+                        Personas Mayores de edad: #<br>
+                        Personas Menores de edad: #<br>
+                        Precio por persona mayor: #<br>
+                        Precio por persona menor: #<br>
+                        Precio total: #<br>
+                        Nombre Completo: #<br>
+                        Correo Electronico: #<br>
                     </div>
                     <div class="modal-footer">
-                        <button class="btn btn-primary" data-bs-target="#exampleModalToggle" data-bs-toggle="modal"
-                            data-bs-dismiss="modal">Back to first</button>
+                        <img class="imagen-boton-confirmar" data-bs-target="" data-bs-toggle="modal"
+                            data-bs-dismiss="modal" src="/imgs/boton-finalizar.png" alt="">
                     </div>
                 </div>
             </div>

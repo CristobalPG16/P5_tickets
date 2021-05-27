@@ -175,6 +175,43 @@ h2{
 
 //seccion de detalle fin
 
+//pop up
+.pop-up{
+  color: $white1;
+}
+
+.background-popup1{
+  background: url(../imgs/boxs/box-pop-up-1-mobile.png)no-repeat center;
+  background-size:contain;
+  background-color: none;
+}
+
+.background-popup{
+  background: url(../imgs/boxs/box-pop-up.png)no-repeat center;
+  background-size:contain;
+  background-color: none;
+}
+
+.modal-content{
+  background: none;
+}
+
+
+.checkbox{
+  margin-left: 5%;
+}
+
+.imagen-boton-confirmar{
+  width: 50%;
+}
+
+.form-check-input:checked {
+  background-color: $red-dark;
+  border-color: $red-dark;
+}
+
+//pop up fin 
+
 
 //seccion de eventos similares 
 
@@ -266,6 +303,25 @@ h2{
 }
 
 //seccion de detalle fin
+
+//seccion pop up
+
+
+.background-popup1{
+  background: url(../imgs/boxs/box-pop-up-large-desktop.png)no-repeat center;
+  background-size: contain;
+}
+
+.background-popup{
+  background: url(../imgs/boxs/box-pop-up-1-desktop.png)no-repeat center;
+  background-size: contain;
+}
+
+.contenido-popup{
+  padding: 20% 10%;
+}
+
+//seccion pop up
 
 
 //seccion de eventos similares 
