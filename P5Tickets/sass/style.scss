@@ -12,7 +12,7 @@ body {
   margin: 0;
   padding: 0;
   font-family: Arial, Helvetica, sans-serif;
-  background: url(../imgs/bg.png) repeat;
+  background: url(../imgs/bg.webp) repeat;
 }
 
 
@@ -31,7 +31,7 @@ body {
 }
 
 .menu-body {
-  background: url(../imgs/rayo.png);
+  background: url(../imgs/rayo.webp);
   background-color: $red-light;
 }
 
@@ -142,42 +142,42 @@ hr {
 .karaoke-box {
   padding-top: 20%;
   padding-bottom: 15%;
-  background: url(../imgs/boxs/karaoke-box.png)no-repeat center;
+  background: url(../imgs/boxs/karaoke-box.webp)no-repeat center;
   background-size: cover;
 }
 
 .cosplay-box {
   padding-top: 20%;
   padding-bottom: 15%;
-  background: url(../imgs/boxs/cosplay-box.png)no-repeat center;
+  background: url(../imgs/boxs/cosplay-box.webp)no-repeat center;
   background-size: cover;
 }
 
 .torneo-box {
   padding-top: 20%;
   padding-bottom: 15%;
-  background: url(../imgs/boxs/torneo-box.png)no-repeat center;
+  background: url(../imgs/boxs/torneo-box.webp)no-repeat center;
   background-size: cover;
 }
 
 .entrevista-box {
   padding-top: 20%;
   padding-bottom: 15%;
-  background: url(../imgs/boxs/entrevista-box.png)no-repeat center;
+  background: url(../imgs/boxs/entrevista-box.webp)no-repeat center;
   background-size: cover;
 }
 
 .firmas-box {
   padding-top: 20%;
   padding-bottom: 15%;
-  background: url(../imgs/boxs/firmas-box.png)no-repeat center;
+  background: url(../imgs/boxs/firmas-box.webp)no-repeat center;
   background-size: cover;
 }
 
 .exclusiva-box {
   padding-top: 20%;
   padding-bottom: 15%;
-  background: url(../imgs/boxs/anuncio-box.png)no-repeat center;
+  background: url(../imgs/boxs/anuncio-box.webp)no-repeat center;
   background-size: cover;
 }
 
@@ -243,7 +243,7 @@ hr {
     padding-top: 0;
     padding-bottom: 0;
     margin: 0 0 0 -5%;
-    background: url(../imgs/boxs_desktop/karaoke-box-desktop.png)no-repeat center;
+    background: url(../imgs/boxs_desktop/karaoke-box-desktop.webp)no-repeat center;
     background-size:contain ;
   }
 
@@ -251,7 +251,7 @@ hr {
     padding-top: 0;
     padding-bottom: 0;
     margin: 0 0 0 5%;
-    background: url(../imgs/boxs_desktop/cosplay-box-desktop.png)no-repeat center;
+    background: url(../imgs/boxs_desktop/cosplay-box-desktop.webp)no-repeat center;
     background-size: contain;
   }
 
@@ -259,7 +259,7 @@ hr {
     padding-top: 0;
     padding-bottom: 0;
     margin: 0 0 0 -5%;
-    background: url(../imgs/boxs_desktop/torneo-box-desktop.png)no-repeat center;
+    background: url(../imgs/boxs_desktop/torneo-box-desktop.webp)no-repeat center;
     background-size: contain;
   }
 
@@ -267,7 +267,7 @@ hr {
     padding-top: 0;
     padding-bottom: 0;
     margin: 0 0 0 5%;
-    background: url(../imgs/boxs_desktop/entrevista-box-desktop.png)no-repeat center;
+    background: url(../imgs/boxs_desktop/entrevista-box-desktop.webp)no-repeat center;
     background-size: contain;
   }
 
@@ -275,7 +275,7 @@ hr {
     padding-top: 0;
     padding-bottom: 0;
     margin: 0 0 0 -5%;
-    background: url(../imgs/boxs_desktop/firmas-box-desktop.png)no-repeat center;
+    background: url(../imgs/boxs_desktop/firmas-box-desktop.webp)no-repeat center;
     background-size: contain;
   }
 
@@ -283,7 +283,7 @@ hr {
     padding-top: 0;
     padding-bottom: 0;
     margin: 0 0 0 5%;
-    background: url(../imgs/boxs_desktop/anuncio-box-desktop.png)no-repeat center;
+    background: url(../imgs/boxs_desktop/anuncio-box-desktop.webp)no-repeat center;
     background-size: contain;
   }
 

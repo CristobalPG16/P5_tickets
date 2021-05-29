@@ -39,7 +39,7 @@
                 aria-labelledby="offcanvasExampleLabel">
 
                 <div class="offcanvas-header header_menu">
-                    <img class="logo-menu" src="imgs/p5_logo.png">
+                    <img class="logo-menu" src="imgs/p5_logo.webp">
 
 
                     <button type="button" class="mob-close fas fa-times" data-bs-dismiss="offcanvas"
@@ -49,18 +49,18 @@
                 </div>
 
                 <div class="offcanvas-body menu-body elementos-menu">
-                    <a href="#"><img class="menu-title" src="imgs/Menu_btn.png"></a>
+                    <a href="#"><img class="menu-title" src="imgs/Menu_btn.webp"></a>
 
                     <hr>
 
-                    <a href="#"><img class="menu-item" src="imgs/Eventos_btn.png"></a>
-                    <a href="#"><img class="menu-item" src="imgs/Categoria_btn.png"></a>
+                    <a href="#"><img class="menu-item" src="imgs/Eventos_btn.webp"></a>
+                    <a href="#"><img class="menu-item" src="imgs/Categoria_btn.webp"></a>
                 </div>
 
             </div>
 
             <!-- imagen del centro del top bar -->
-            <a href="index.php"><img class="logo-top-bar" src="imgs/p5_logo.png"></a>
+            <a href="index.php"><img class="logo-top-bar" src="imgs/p5_logo.webp"></a>
 
 
             <!-- search button -->
@@ -73,7 +73,7 @@
                     aria-labelledby="offcanvasRightLabel">
 
                     <div class="offcanvas-header header_menu">
-                        <img class="logo-menu" src="imgs/p5_logo.png">
+                        <img class="logo-menu" src="imgs/p5_logo.webp">
                         <button type="button" class="mob-close fas fa-times" data-bs-dismiss="offcanvas"
                             aria-label="Close"></button>
                     </div>
@@ -101,7 +101,7 @@
 
     <!-- seccion de bienvenida -->
     <section class="welcome-section">
-        <img class="img-fluid" src="imgs/texto-bienvenida.png" alt="consigue tu Ticket para el evento">
+        <img class="img-fluid" src="imgs/texto-bienvenida.webp" alt="consigue tu Ticket para el evento">
     </section>
 
     <section class="articulos">
@@ -121,14 +121,14 @@
                                 Para: +18<br>
                             </div>
                             <div class="col">
-                                <img class="img-fluid imagen-articulo" src="imgs/box_imgs/karaoke_img.png"
+                                <img class="img-fluid imagen-articulo" src="imgs/box_imgs/karaoke_img.webp"
                                     alt="Karaoke" loading="lazy">
                             </div>
                         </div>
                         <div class="row boton-row">
                             <div class="col"></div>
                             <div class="col">
-                                <a href="PaginaDetalle.php"><img class="img-fluid" src="imgs/box_imgs/aprende-mas_btn.png" alt="boton aprende mas"></a>
+                                <a href="PaginaDetalle.php"><img class="img-fluid" src="imgs/box_imgs/aprende-mas_btn.webp" alt="boton aprende mas"></a>
                             </div>
                         </div>
                     </div>
@@ -146,14 +146,14 @@
                                 Para: +18<br>
                             </div>
                             <div class="col">
-                                <img class="img-fluid imagen-articulo" src="imgs/box_imgs/cosplay_img.png"
+                                <img class="img-fluid imagen-articulo" src="imgs/box_imgs/cosplay_img.webp"
                                     alt="imagen del cosplay" loading="lazy">
                             </div>
                         </div>
                         <div class="row boton-row">
                             <div class="col"></div>
                             <div class="col">
-                                <a href="PaginaDetalle.php"><img class="img-fluid" src="imgs/box_imgs/aprende-mas_btn.png" alt="boton aprende mas"></a>
+                                <a href="PaginaDetalle.php"><img class="img-fluid" src="imgs/box_imgs/aprende-mas_btn.webp" alt="boton aprende mas"></a>
                             </div>
                         </div>
                     </div>
@@ -171,13 +171,13 @@
                                 Para: +18<br>
                             </div>
                             <div class="col">
-                                <img class="img-fluid imagen-articulo" src="imgs/box_imgs/torneo_img.png" alt="imagen del torneo" loading="lazy">
+                                <img class="img-fluid imagen-articulo" src="imgs/box_imgs/torneo_img.webp" alt="imagen del torneo" loading="lazy">
                             </div>
                         </div>
                         <div class="row boton-row">
                             <div class="col"></div>
                             <div class="col">
-                                <a href="PaginaDetalle.php"><img class="img-fluid" src="imgs/box_imgs/aprende-mas_btn.png" alt="boton aprende mas"></a>
+                                <a href="PaginaDetalle.php"><img class="img-fluid" src="imgs/box_imgs/aprende-mas_btn.webp" alt="boton aprende mas"></a>
                             </div>
                         </div>
                     </div>
@@ -195,14 +195,14 @@
                                 Para: +18<br>
                             </div>
                             <div class="col">
-                                <img class="img-fluid imagen-articulo" src="imgs/box_imgs/entrevista_img.png"
+                                <img class="img-fluid imagen-articulo" src="imgs/box_imgs/entrevista_img.webp"
                                     alt="imagen de entrevistas" loading="lazy">
                             </div>
                         </div>
                         <div class="row boton-row">
                             <div class="col"></div>
                             <div class="col">
-                                <a href="PaginaDetalle.php"><img class="img-fluid" src="imgs/box_imgs/aprende-mas_btn.png" alt="boton aprende mas"></a>
+                                <a href="PaginaDetalle.php"><img class="img-fluid" src="imgs/box_imgs/aprende-mas_btn.webp" alt="boton aprende mas"></a>
                             </div>
                         </div>
                     </div>
@@ -220,13 +220,13 @@
                                 Para: +18<br>
                             </div>
                             <div class="col">
-                                <img class="img-fluid imagen-articulo" src="imgs/box_imgs/firmas-img.png" alt="imagen de firmas" loading="lazy">
+                                <img class="img-fluid imagen-articulo" src="imgs/box_imgs/firmas-img.webp" alt="imagen de firmas" loading="lazy">
                             </div>
                         </div>
                         <div class="row boton-row">
                             <div class="col"></div>
                             <div class="col">
-                                <a href="PaginaDetalle.php"><img class="img-fluid" src="imgs/box_imgs/aprende-mas_btn.png" alt="boton aprende mas" ></a>
+                                <a href="PaginaDetalle.php"><img class="img-fluid" src="imgs/box_imgs/aprende-mas_btn.webp" alt="boton aprende mas" ></a>
                             </div>
                         </div>
                     </div>
@@ -244,14 +244,14 @@
                                 Para: +18<br>
                             </div>
                             <div class="col">
-                                <img class="img-fluid imagen-articulo" src="imgs/box_imgs/exclusivo_img.png"
+                                <img class="img-fluid imagen-articulo" src="imgs/box_imgs/exclusivo_img.webp"
                                     alt="imagen de la exclusiva" loading="lazy">
                             </div>
                         </div>
                         <div class="row boton-row">
                             <div class="col"></div>
                             <div class="col">
-                                <a href="PaginaDetalle.php"><img class="img-fluid" src="imgs/box_imgs/aprende-mas_btn.png" alt="boton aprende mas"></a>
+                                <a href="PaginaDetalle.php"><img class="img-fluid" src="imgs/box_imgs/aprende-mas_btn.webp" alt="boton aprende mas"></a>
                             </div>
                         </div>
                     </div>

@@ -12,7 +12,7 @@ body {
   margin: 0;
   padding: 0;
   font-family: Arial, Helvetica, sans-serif;
-  background: url(../imgs/bg.png) repeat;
+  background: url(../imgs/bg.webp) repeat;
 }
 
 
@@ -31,7 +31,7 @@ body {
 }
 
 .menu-body {
-  background: url(../imgs/rayo.png);
+  background: url(../imgs/rayo.webp);
   background-color: $red-light;
 }
 
@@ -136,7 +136,7 @@ hr {
 //seccion de detalle inicio
 
 .section-detalle{
-  background: url(../imgs/boxs/Background_Detalle.png)no-repeat center;
+  background: url(../imgs/boxs/Background_Detalle.webp)no-repeat center;
   background-size: 100%;
 }
 
@@ -181,13 +181,13 @@ h2{
 }
 
 .background-popup1{
-  background: url(../imgs/boxs/box-pop-up-1-mobile.png)no-repeat center;
+  background: url(../imgs/boxs/box-pop-up-1-mobile.webp)no-repeat center;
   background-size:contain;
   background-color: none;
 }
 
 .background-popup{
-  background: url(../imgs/boxs/box-pop-up.png)no-repeat center;
+  background: url(../imgs/boxs/box-pop-up.webp)no-repeat center;
   background-size:contain;
   background-color: none;
 }
@@ -264,7 +264,7 @@ h2{
   //seccion de detalle inicio
 
 .section-detalle{
-  background: url(../imgs/boxs/Background_Detalle_desktop.png)no-repeat center;
+  background: url(../imgs/boxs/Background_Detalle_desktop.webp)no-repeat center;
   background-size:contain;
   margin: 2% 0;
 }
@@ -308,12 +308,12 @@ h2{
 
 
 .background-popup1{
-  background: url(../imgs/boxs/box-pop-up-large-desktop.png)no-repeat center;
+  background: url(../imgs/boxs/box-pop-up-large-desktop.webp)no-repeat center;
   background-size: contain;
 }
 
 .background-popup{
-  background: url(../imgs/boxs/box-pop-up-1-desktop.png)no-repeat center;
+  background: url(../imgs/boxs/box-pop-up-1-desktop.webp)no-repeat center;
   background-size: contain;
 }
 
