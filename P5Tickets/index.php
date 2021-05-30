@@ -95,8 +95,26 @@
 
             </section>
 
+            <!-- Menu escritorio -->
+            <section class="top-bar-desktop">
+
+                <nav class="navbar navbar-light">
+                    <div class="container-fluid">
+                        <a href="#"><img class="menu-item" src="imgs/Eventos_btn.webp"></a>
+                            <a href="#"><img class="menu-item" src="imgs/Categoria_btn.webp"></a>
+                        <form class="d-flex">
+                            
+                            <input class="form-control me-2" type="search" placeholder="Buscar"
+                                aria-label="Search">
+                            <button class="btn btn-success boton-buscar" type="submit">Buscar</button>
+                        </form>
+                    </div>
+                </nav>
+
+            </section>
+
+
         </section>
-        <!-- Menu amburguesa -->
     </header>
 
     <!-- seccion de bienvenida -->

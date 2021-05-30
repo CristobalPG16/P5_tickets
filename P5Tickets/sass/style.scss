@@ -101,11 +101,19 @@ hr {
   display: inline-block;
 }
 
+.top-bar-desktop{
+  display: none;
+}
 
 .boton-buscar {
   color: $white;
   background-color: $black;
   border: none;
+}
+
+.btn-success:hover{
+  background-color: $red-dark;
+    border-color: $red-dark;
 }
 
 .barra-buscar {
@@ -223,6 +231,23 @@ hr {
 
   .items-del-menu{
     position:absolute;
+  }
+  
+  .boton-buscar {
+    color: $white;
+    background-color: $red-light;
+    border: none;
+  }
+  
+  .btn-success:hover{
+    background-color: $red-dark;
+      border-color: $red-dark;
+  }
+
+
+  .top-bar-desktop{
+    display: inline-block;
+    padding-left: 54%;
   }
 
   //fin header compu
